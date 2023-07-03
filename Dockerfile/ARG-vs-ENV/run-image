@@ -1,0 +1,3 @@
+docker run              arg-vs-env-default
+docker run              arg-vs-env-go
+docker run -e value=xyz arg-vs-env-go

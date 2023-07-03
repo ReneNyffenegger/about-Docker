@@ -1,0 +1,2 @@
+docker build                                   -t arg-vs-env-default     .
+docker build --build-arg filename=overwritten  -t arg-vs-env-go          .
